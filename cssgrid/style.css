@@ -1,0 +1,15 @@
+.grid {
+    border: 2px blueviolet solid;
+    width:400px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/3fr 50% 1fr;
+    grid-gap: 20px 10px;
+}
+.box {
+    background-color: white;
+    color: blueviolet;
+    border-radius: 1px;
+    border: 2px dodgerblue solid;
+    
+}
